@@ -36,8 +36,8 @@ jobs:
             /usr/share/dotnet \
             /etc/mysql \
             /etc/php
-          mkdir /etc/php
-          mkdir /etc/mysql
+          sudo mkdir /etc/php
+          sudo mkdir /etc/mysql
           sudo -E apt-get -y purge \
             azure-cli \
             ghc* \
